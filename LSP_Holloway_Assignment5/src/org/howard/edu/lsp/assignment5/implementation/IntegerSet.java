@@ -1,4 +1,5 @@
 package org.howard.edu.lsp.assignment5.implementation;
+
 /**
  * @author Mariah.h
  */
@@ -6,7 +7,7 @@ import java.util.*;
 public class IntegerSet {
 	
 	  
-	   private ArrayList<Integer> list= new ArrayList<>();
+	   public ArrayList<Integer> list= new ArrayList<>();
 	   /**
 	    * Default Constructor
 	    * @param setA
@@ -19,6 +20,9 @@ public class IntegerSet {
 	  
 	  
 	  
+	
+
+
 	/**   clears the all representation of class
 	 * 
 	 */
@@ -217,8 +221,27 @@ public class IntegerSet {
 	   public ArrayList<Integer> getlist(){
 	       return list;
 	   }
-	  
-	  
+
+
+
+	public void add(int i) {
+		// TODO Auto-generated method stub
+		
 	}
+
+
+
+	public boolean isEmpty() {
+		Object set = null;
+		if(set==null)
+			   return true;//if empty return true
+			   else
+			   return false;//return false if not empty
+			   }
+	
+	}
+	  
+	  
+	
 
 
